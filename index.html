@@ -53,25 +53,14 @@
           </p>
           <div class="hero-cta">
             <a class="btn btn-primary" href="#projects">View Projects</a>
-            <a class="btn btn-secondary" href="#" download="Athul-KS-Resume.pdf">Download Resume</a>
+            <a class="btn btn-secondary" href="https://drive.google.com/file/d/FILE_ID/view?usp=sharing" target="_blank" rel="noopener">Download Resume</a>
             <a class="btn btn-ghost" href="#contact">Contact Me</a>
           </div>
         </div>
 
         <div class="hero-visual">
           <div class="hero-visual-inner">
-            <div class="avatar" aria-hidden="true">
-              <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stop-color="#2563EB" stop-opacity="0.9" />
-                    <stop offset="100%" stop-color="#22C55E" stop-opacity="0.9" />
-                  </linearGradient>
-                </defs>
-                <circle cx="120" cy="120" r="110" fill="url(#grad)" />
-                <path d="M120 70a45 45 0 1 0 0 90 45 45 0 0 0 0-90Zm-70 120c0-35 55-55 70-55s70 20 70 55v5H50v-5Z" fill="rgba(248,250,252,0.85)" />
-              </svg>
-            </div>
+            <img class="hero-photo" src="assets/images/profile.svg" alt="Athul K S" />
           </div>
         </div>
       </div>
@@ -84,23 +73,10 @@
     <section class="section" id="about">
       <div class="container section-grid">
         <div class="about-visual" aria-hidden="true">
-          <div class="about-photo">
-            <div class="photo-overlay"></div>
-            <div class="photo-content">
-              <div class="photo-skeleton" aria-hidden="true">
-                <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                      <stop stop-color="#111827" offset="0" />
-                      <stop stop-color="#0B0F19" offset="1" />
-                    </linearGradient>
-                  </defs>
-                  <rect width="360" height="360" rx="32" fill="url(#g1)" />
-                  <circle cx="180" cy="140" r="70" fill="#1F2937" />
-                  <rect x="80" y="240" width="200" height="18" rx="9" fill="#1F2937" />
-                  <rect x="100" y="280" width="160" height="12" rx="6" fill="#1F2937" />
-                </svg>
-              </div>
+          <div class="about-graphic">
+            <div class="about-graphic-inner">
+              <div class="about-graphic-title">Engineering secure systems with clarity</div>
+              <div class="about-graphic-sub">Automation • Infrastructure • AI research</div>
             </div>
           </div>
         </div>
@@ -263,82 +239,127 @@
         <p class="section-intro">Showcasing a selection of engineering work with real-world impact.</p>
 
         <div class="projects-grid">
-          <div class="project-card" data-title="Face Recognition System" data-tech="Python, OpenCV, Computer Vision" data-desc="AI powered facial recognition system for identifying individuals using computer vision.">
-            <div class="project-info">
-              <h3>Face Recognition System</h3>
-              <p>AI powered facial recognition system for identifying individuals using computer vision.</p>
+          <a class="project-link" href="https://github.com/athulks/face-recognition-system" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Face Recognition System" data-tech="Python, OpenCV, Computer Vision" data-desc="AI powered facial recognition system for identifying individuals using computer vision.">
+              <div class="project-info">
+                <h3>Face Recognition System</h3>
+                <p>AI powered facial recognition system for identifying individuals using computer vision.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">Python • OpenCV</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">Python • OpenCV</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="Employee Photo Punching Verification System" data-tech="Python, Computer Vision" data-desc="Detects proxy attendance by analyzing employee punching images.">
-            <div class="project-info">
-              <h3>Employee Photo Punching Verification System</h3>
-              <p>Detects proxy attendance by analyzing employee punching images.</p>
+          <a class="project-link" href="https://github.com/athulks/photo-punch-verification" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Employee Photo Punching Verification System" data-tech="Python, Computer Vision" data-desc="Detects proxy attendance by analyzing employee punching images.">
+              <div class="project-info">
+                <h3>Employee Photo Punching Verification System</h3>
+                <p>Detects proxy attendance by analyzing employee punching images.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">Computer Vision</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">Computer Vision</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="Aadhaar Data Masking System" data-tech="Python, Regex" data-desc="Automated system that hides sensitive identity numbers in documents.">
-            <div class="project-info">
-              <h3>Aadhaar Data Masking System</h3>
-              <p>Automated system that hides sensitive identity numbers in documents.</p>
+          <a class="project-link" href="https://github.com/athulks/aadhaar-masking" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Aadhaar Data Masking System" data-tech="Python, Regex" data-desc="Automated system that hides sensitive identity numbers in documents.">
+              <div class="project-info">
+                <h3>Aadhaar Data Masking System</h3>
+                <p>Automated system that hides sensitive identity numbers in documents.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">Python • Regex</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">Python • Regex</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="Image Compression System" data-tech="Python, Image Processing" data-desc="Optimizes enterprise database storage by compressing images.">
-            <div class="project-info">
-              <h3>Image Compression System</h3>
-              <p>Optimizes enterprise database storage by compressing images.</p>
+          <a class="project-link" href="https://github.com/athulks/image-compression" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Image Compression System" data-tech="Python, Image Processing" data-desc="Optimizes enterprise database storage by compressing images.">
+              <div class="project-info">
+                <h3>Image Compression System</h3>
+                <p>Optimizes enterprise database storage by compressing images.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">Python • PIL</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">Python • PIL</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="IoT Water Tank Monitoring System" data-tech="Arduino, Sensors, IoT" data-desc="Sensor based system to monitor contamination levels in water tanks.">
-            <div class="project-info">
-              <h3>IoT Water Tank Monitoring System</h3>
-              <p>Sensor based system to monitor contamination levels in water tanks.</p>
+          <a class="project-link" href="https://github.com/athulks/iot-water-tank-monitor" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="IoT Water Tank Monitoring System" data-tech="Arduino, Sensors, IoT" data-desc="Sensor based system to monitor contamination levels in water tanks.">
+              <div class="project-info">
+                <h3>IoT Water Tank Monitoring System</h3>
+                <p>Sensor based system to monitor contamination levels in water tanks.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">IoT • Embedded</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">IoT • Embedded</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="Operational Dashboard & MIS Reporting" data-tech="SQL, Tableau" data-desc="SQL and reporting system to monitor enterprise operational metrics.">
-            <div class="project-info">
-              <h3>Operational Dashboard & MIS Reporting</h3>
-              <p>SQL and reporting system to monitor enterprise operational metrics.</p>
+          <a class="project-link" href="https://github.com/athulks/mis-dashboard" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Operational Dashboard & MIS Reporting" data-tech="SQL, Tableau" data-desc="SQL and reporting system to monitor enterprise operational metrics.">
+              <div class="project-info">
+                <h3>Operational Dashboard & MIS Reporting</h3>
+                <p>SQL and reporting system to monitor enterprise operational metrics.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">SQL • Tableau</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">SQL • Tableau</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
-            </div>
-          </div>
+          </a>
 
-          <div class="project-card" data-title="Offline Examination Malpractice Detection" data-tech="Computer Vision, Machine Learning" data-desc="AI based monitoring system to detect suspicious behaviour during exams.">
-            <div class="project-info">
-              <h3>Offline Examination Malpractice Detection</h3>
-              <p>AI based monitoring system to detect suspicious behaviour during exams.</p>
+          <a class="project-link" href="https://github.com/athulks/exam-malpractice-detection" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Offline Examination Malpractice Detection" data-tech="Computer Vision, Machine Learning" data-desc="AI based monitoring system to detect suspicious behaviour during exams.">
+              <div class="project-info">
+                <h3>Offline Examination Malpractice Detection</h3>
+                <p>AI based monitoring system to detect suspicious behaviour during exams.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">ML • CV</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-            <div class="project-meta">
-              <span class="project-tech">ML • CV</span>
-              <button class="btn btn-sm" data-action="openProject">View Details</button>
+          </a>
+
+          <a class="project-link" href="https://github.com/athulks/mis-dashboard" target="_blank" rel="noopener">
+            <div class="project-card fade-in" data-title="Operational Dashboard & MIS Reporting" data-tech="SQL, Tableau" data-desc="SQL and reporting system to monitor enterprise operational metrics.">
+              <div class="project-info">
+                <h3>Operational Dashboard & MIS Reporting</h3>
+                <p>SQL and reporting system to monitor enterprise operational metrics.</p>
+              </div>
+              <div class="project-meta">
+                <span class="project-tech">SQL • Tableau</span>
+                <div class="project-actions">
+                  <span class="btn btn-sm">View Details</span>
+                </div>
+              </div>
             </div>
-          </div>
+          </a>
+
+
         </div>
       </div>
 
@@ -366,47 +387,61 @@
         </p>
 
         <div class="cert-grid">
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">☁️</div>
-            <h3>AWS Cloud Foundations</h3>
-            <p>Amazon Web Services</p>
-          </div>
+            <a class="cert-link" href="https://www.credly.com/badges/27e5e43a-e44d-4850-a92d-368b34fa1a52/print" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">☁️</div>
+              <h3>AWS Cloud Foundations</h3>
+              <p>Amazon Web Services</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">🛡️</div>
-            <h3>Cybersecurity Job Simulation</h3>
-            <p>Mastercard</p>
-          </div>
+          <a class="cert-link" href="https://www.theforage.com/completion-certificates/mfxGwGDp6WkQmtmTf/vcKAB5yYAgvemepGQ_mfxGwGDp6WkQmtmTf_68f64acc83adcad5b0ac4865_1762196845234_completion_certificate.pdf" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">🛡️</div>
+              <h3>Cybersecurity Job Simulation</h3>
+              <p>Mastercard</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">🔍</div>
-            <h3>Cybersecurity Analyst Job Simulation</h3>
-            <p>Mastercard</p>
-          </div>
+          <a class="cert-link" href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_68f64acc83adcad5b0ac4865_1761472145429_completion_certificate.pdf" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">🔍</div>
+              <h3>Cybersecurity Analyst Job Simulation</h3>
+              <p>TATA</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">🐍</div>
-            <h3>Python Essential Training</h3>
-            <p>LinkedIn Learning</p>
-          </div>
+          <a class="cert-link" href="https://www.linkedin.com/learning/certificates/3dc1fb02f49464cfe5a13eee8954040659686479d1a081a9345f21944fd682d5" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">🐍</div>
+              <h3>Python Essential Training</h3>
+              <p>LinkedIn Learning</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">🧠</div>
-            <h3>Deep Learning Face Recognition</h3>
-            <p>Udemy</p>
-          </div>
+          <a class="cert-link" href="https://www.linkedin.com/learning/certificates/3dc1fb02f49464cfe5a13eee8954040659686479d1a081a9345f21944fd682d5" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">🧠</div>
+              <h3>Deep Learning Face Recognition</h3>
+              <p>LinkedIn Learning</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">🗄️</div>
-            <h3>SQL &amp; PL-SQL Developer Program</h3>
-            <p>Oracle</p>
-          </div>
+          <a class="cert-link" href="https://example.com/sql-plsql-developer-program" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">🗄️</div>
+              <h3>SQL &amp; PL-SQL Developer Program</h3>
+              <p>Finedge IT Finishing School</p>
+            </div>
+          </a>
 
-          <div class="cert-card">
-            <div class="cert-icon" aria-hidden="true">📡</div>
-            <h3>IoT and Embedded Systems</h3>
-            <p>UC Irvine</p>
-          </div>
+          <a class="cert-link" href="https://www.coursera.org/account/accomplishments/verify/59BK3HTJALFX" target="_blank" rel="noopener">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">📡</div>
+              <h3>IoT and Embedded Systems</h3>
+              <p>UC Irvine</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -441,7 +476,7 @@
               <div class="contact-icon">🔗</div>
               <div>
                 <h4>LinkedIn</h4>
-                <p><a href="https://linkedin.com/in/athul-k-s-535164251" target="_blank" rel="noopener">linkedin.com/in/athul-k-s-535164251</a></p>
+                <p><a href="https://www.linkedin.com/in/athul-k-s-535164251 " target="_blank" rel="noopener">https://www.linkedin.com/in/athul-k-s-535164251 </a></p>
               </div>
             </div>
 
@@ -482,7 +517,7 @@
       </div>
 
       <div class="footer-links">
-        <a href="https://linkedin.com/in/athul-k-s-535164251" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/athul-k-s-535164251 " target="_blank" rel="noopener">LinkedIn</a>
         <a href="mailto:akst45s@gmail.com">Email</a>
       </div>
 
