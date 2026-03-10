@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athul K S | IT Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo" aria-label="Home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span class="logo-text">Athul K S</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#certifications">Certifications</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-overline">Hello, I’m</p>
+          <h1 class="hero-title">Athul K S</h1>
+          <p class="hero-subtitle">IT Systems Engineer</p>
+          <p class="hero-typing">
+            <span class="typed-text" id="typedText"></span>
+            <span class="typed-cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="hero-copy">
+            Versatile IT professional with experience in enterprise IT infrastructure, system troubleshooting, automation, and research-driven technology solutions.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#" download="Athul-KS-Resume.pdf">Download Resume</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+            <div class="avatar" aria-hidden="true">
+              <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#2563EB" stop-opacity="0.9" />
+                    <stop offset="100%" stop-color="#22C55E" stop-opacity="0.9" />
+                  </linearGradient>
+                </defs>
+                <circle cx="120" cy="120" r="110" fill="url(#grad)" />
+                <path d="M120 70a45 45 0 1 0 0 90 45 45 0 0 0 0-90Zm-70 120c0-35 55-55 70-55s70 20 70 55v5H50v-5Z" fill="rgba(248,250,252,0.85)" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="arrow"></span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div class="about-visual" aria-hidden="true">
+          <div class="about-photo">
+            <div class="photo-overlay"></div>
+            <div class="photo-content">
+              <div class="photo-skeleton" aria-hidden="true">
+                <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                      <stop stop-color="#111827" offset="0" />
+                      <stop stop-color="#0B0F19" offset="1" />
+                    </linearGradient>
+                  </defs>
+                  <rect width="360" height="360" rx="32" fill="url(#g1)" />
+                  <circle cx="180" cy="140" r="70" fill="#1F2937" />
+                  <rect x="80" y="240" width="200" height="18" rx="9" fill="#1F2937" />
+                  <rect x="100" y="280" width="160" height="12" rx="6" fill="#1F2937" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <h2 class="section-title">About</h2>
+          <p class="section-intro">
+            I’m an IT professional with experience supporting enterprise environments, managing systems, and building automation solutions. I thrive in collaborative teams that value clean processes, stability, and innovation.
+          </p>
+          <ul class="about-list">
+            <li>Enterprise IT support</li>
+            <li>System administration</li>
+            <li>Networking troubleshooting</li>
+            <li>Automation using Python</li>
+            <li>R&amp;D in AI and IoT</li>
+          </ul>
+
+          <div class="about-cards">
+            <div class="card">
+              <h3>1+ Years</h3>
+              <p>Enterprise IT experience</p>
+            </div>
+            <div class="card">
+              <h3>NBFC</h3>
+              <p>Technology environment experience</p>
+            </div>
+            <div class="card">
+              <h3>Active Directory</h3>
+              <p>Infrastructure support</p>
+            </div>
+            <div class="card">
+              <h3>Python</h3>
+              <p>Automation scripting</p>
+            </div>
+            <div class="card">
+              <h3>AI/ML</h3>
+              <p>Computer vision & research</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-intro">
+          A curated set of abilities I regularly use to deliver scalable, secure, and automated solutions.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">🖥️</div>
+            <h3>IT Support</h3>
+            <p>Windows OS, troubleshooting, helpdesk workflows.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">🗄️</div>
+            <h3>System Administration</h3>
+            <p>AD, Group Policy, virtualization, server maintenance.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">🌐</div>
+            <h3>Networking</h3>
+            <p>LAN, DNS, DHCP, WiFi troubleshooting, routing.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 82%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">🐍</div>
+            <h3>Programming</h3>
+            <p>Python, SQL / PL-SQL, automation tooling.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 88%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">📊</div>
+            <h3>Data & Analytics</h3>
+            <p>Tableau, reporting, dashboards, MIS.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">🤖</div>
+            <h3>Research</h3>
+            <p>AI/ML, computer vision, IoT systems, embedded.</p>
+            <div class="progress">
+              <div class="progress-bar" style="--progress: 78%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-intro">
+          A snapshot of the recent roles where I’ve built tools, supported systems, and collaborated with teams.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Research & Development Engineer / IT Systems Support</h3>
+                <span class="timeline-meta">Manappuram Finance Limited • 2022 – 2023</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Developed internal enterprise tools</li>
+                <li>Provided L1 and L2 IT support</li>
+                <li>Installed and configured Windows systems</li>
+                <li>Managed Active Directory users</li>
+                <li>Troubleshot networking and hardware issues</li>
+                <li>Automated reports using Python</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Research & Development Engineer</h3>
+                <span class="timeline-meta">Centre for Innovation Technology Transfer and Industrial Collaboration (CUSAT)</span>
+              </div>
+              <ul class="timeline-list">
+                <li>IoT and embedded AI experimentation</li>
+                <li>Technical workshops and mentoring</li>
+                <li>Student project support</li>
+                <li>Offline exam malpractice detection system</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-intro">Showcasing a selection of engineering work with real-world impact.</p>
+
+        <div class="projects-grid">
+          <div class="project-card" data-title="Face Recognition System" data-tech="Python, OpenCV, Computer Vision" data-desc="AI powered facial recognition system for identifying individuals using computer vision.">
+            <div class="project-info">
+              <h3>Face Recognition System</h3>
+              <p>AI powered facial recognition system for identifying individuals using computer vision.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">Python • OpenCV</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Employee Photo Punching Verification System" data-tech="Python, Computer Vision" data-desc="Detects proxy attendance by analyzing employee punching images.">
+            <div class="project-info">
+              <h3>Employee Photo Punching Verification System</h3>
+              <p>Detects proxy attendance by analyzing employee punching images.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">Computer Vision</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Aadhaar Data Masking System" data-tech="Python, Regex" data-desc="Automated system that hides sensitive identity numbers in documents.">
+            <div class="project-info">
+              <h3>Aadhaar Data Masking System</h3>
+              <p>Automated system that hides sensitive identity numbers in documents.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">Python • Regex</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Image Compression System" data-tech="Python, Image Processing" data-desc="Optimizes enterprise database storage by compressing images.">
+            <div class="project-info">
+              <h3>Image Compression System</h3>
+              <p>Optimizes enterprise database storage by compressing images.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">Python • PIL</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="IoT Water Tank Monitoring System" data-tech="Arduino, Sensors, IoT" data-desc="Sensor based system to monitor contamination levels in water tanks.">
+            <div class="project-info">
+              <h3>IoT Water Tank Monitoring System</h3>
+              <p>Sensor based system to monitor contamination levels in water tanks.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">IoT • Embedded</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Operational Dashboard & MIS Reporting" data-tech="SQL, Tableau" data-desc="SQL and reporting system to monitor enterprise operational metrics.">
+            <div class="project-info">
+              <h3>Operational Dashboard & MIS Reporting</h3>
+              <p>SQL and reporting system to monitor enterprise operational metrics.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">SQL • Tableau</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Offline Examination Malpractice Detection" data-tech="Computer Vision, Machine Learning" data-desc="AI based monitoring system to detect suspicious behaviour during exams.">
+            <div class="project-info">
+              <h3>Offline Examination Malpractice Detection</h3>
+              <p>AI based monitoring system to detect suspicious behaviour during exams.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-tech">ML • CV</span>
+              <button class="btn btn-sm" data-action="openProject">View Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-backdrop" data-action="closeModal"></div>
+        <div class="modal-panel">
+          <button class="modal-close" data-action="closeModal" aria-label="Close">×</button>
+          <h3 id="modalTitle">Project Title</h3>
+          <p class="modal-tech" id="modalTech"></p>
+          <p id="modalDesc"></p>
+          <div class="modal-actions">
+            <button class="btn btn-secondary" data-action="closeModal">Close</button>
+            <a class="btn btn-primary" href="#contact">Discuss this project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-intro">
+          Continuous learning reflected by certifications I’ve completed.
+        </p>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">☁️</div>
+            <h3>AWS Cloud Foundations</h3>
+            <p>Amazon Web Services</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🛡️</div>
+            <h3>Cybersecurity Job Simulation</h3>
+            <p>Mastercard</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🔍</div>
+            <h3>Cybersecurity Analyst Job Simulation</h3>
+            <p>Mastercard</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🐍</div>
+            <h3>Python Essential Training</h3>
+            <p>LinkedIn Learning</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🧠</div>
+            <h3>Deep Learning Face Recognition</h3>
+            <p>Udemy</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">🗄️</div>
+            <h3>SQL &amp; PL-SQL Developer Program</h3>
+            <p>Oracle</p>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">📡</div>
+            <h3>IoT and Embedded Systems</h3>
+            <p>UC Irvine</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-intro">
+            Let’s connect and build something impactful together.
+          </p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 7994479280</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:akst45s@gmail.com">akst45s@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">🔗</div>
+              <div>
+                <h4>LinkedIn</h4>
+                <p><a href="https://linkedin.com/in/athul-k-s-535164251" target="_blank" rel="noopener">linkedin.com/in/athul-k-s-535164251</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>India (Open to Remote / UAE)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required rows="5" placeholder="Tell me more..."></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">Athul K S</h3>
+        <p class="footer-subtitle">IT Systems Engineer</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/athul-k-s-535164251" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:akst45s@gmail.com">Email</a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© <span id="year"></span> Athul K S. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
